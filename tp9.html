@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp9</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul id="inline">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#leperigord">Le Périgord</a></li>
+                <li><a href="Notregite.html">Notre gite</a></li>
+                <li><a href="#contacteznous">Contactez-nous</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="section1">
+        <h1>Contactez nous </h1>
+        <h2>Gourmandise et Partage</h2>
+        <p>Nous serons très heureux de vous accueillir à <b>la Ferme Gourmande</b> afin de vous partager l'amour de
+            notre région et de vous faire découvrir toutes nos plus belles spécialités. Vous ne connaissez pas le
+            Périgord Noir ?
+            <br><i><b>Réservez vite !</b></i>
+        </p>
+    </section>
+    <div class="section2">
+        <iframe height="300" width="500" src="https://www.youtube.com/embed/x7gKf0M8gEI"
+            title="Dordogne Périgord : Découverte de la Vallée de la Dordogne" allowfullscreen></iframe>
+    </div>
+    <div class="section3">
+        <p>Adresse</p>
+        <p>10 impasse du breil,<br>24260 Le Bugues</p>
+        <p>Téléphone</p>
+        <p id="contacteznous">07 82 23 78 10</p>
+        <p>Notre Email</p>
+        <p>contact@lafermegourmande.com</p>
+    </div>
+
+    <div>
+        <h2 id="titrehoraire">Nos horaires</h2>
+        <table id="horaires">
+            <tr>
+                <th>Jours</th>
+                <th>Lundi</th>
+                <th>Mardi au Jeudi</th>
+                <th>vendredi au Dimanche</th>
+            </tr>
+
+            <tr>
+                <th>Horaires</th>
+                <td>Fermé</td>
+                <td>8h à 19h</td>
+                <td>8h à 20h</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <div>
+        <form action="#" method="post">
+
+
+            <ul class="section5">
+                <li><label for="nomPrenom">Nom Prénom</label>
+                    <input type="text" id="nomPrenom" name="nomPrenom" placeholder="Nom Prénom" required>
+                </li>
+                <li><label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                </li>
+                <li><label for="téléphone">Téléphone</label>
+                    <input type="text" id="téléphone" name="téléphone" placeholder="téléphone" required>
+                </li>
+                <li><label for="message">Message</label><textarea id="message" name="message"
+                        placeholder="Ecrivez-nous"></textarea></li>
+                <li><input type="submit" value="Envoyer"></li>
+            </ul>
+        </form>
+    </div>
+
+    <div class="section4">
+        <p class="com">C'est trop beau le Périgord noir</p>
+        <div class="perigordNoir">
+            <figure><img src="img/dordogne.jpg" alt="Dordogne">
+                <figcaption>Paysage de la Dordogne</figcaption>
+            </figure>
+        </div>
+        <div class="perigordNoir">
+            <figure><img src="img/hotel-sarlat.jpg" alt="Hotel">
+                <figcaption>Le splendide Hôtel Sarlat</figcaption>
+            </figure>
+        </div>
+        <div class="perigordNoir">
+            <figure><img src="img/perigord-noir.jpg" alt="Perigord noir">
+                <figcaption>Le Périgord Noir</figcaption>
+            </figure>
+        </div>
+
+
+
+    </div>
+
+
+
+    <footer>
+        <p class="blanc">Copyright 2019 - Office du tourisme du Périgord</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+html {
+  background-color:#7d4242;
+}
+
+/*DEBUT SECTION HEADER*/
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/*DEBUT SECTION*/
+.section1 {
+  background-color: #8f603c;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+/*DEBUT SECTION iframe*/
+.section2 {
+  background-color: #7d4242;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+.section3 {
+  background-color: #7d4242;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+/*DEBUT SECTION horaires*/
+
+#titrehoraire {
+  background-color: #2d2b2a;
+  display: block;
+  color: rgb(244, 244, 244);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+#horaires {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#horaires td,
+#horaires th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#horaires tr:nth-child(even) {
+  background-color: #444040;
+}
+
+#horaires tr:hover {
+  background-color: #040404;
+}
+
+#horaires th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #49514e;
+  color: rgb(197, 192, 192);
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/*SECTION BUTTON ENVOYER*/
+
+input[type=submit] {
+  font-size: 10px;
+  border-radius: 8px;
+  background-color: #575351;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  bottom: 0;
+  position: relative;
+  border: 1px solid rgb(4, 4, 4)
+}
+
+input[type=submit]:hover {
+  background-color: #027d29c1;
+}
+
+.section5 input[type=submit] {
+  position: relative;
+  top: 60px;
+}
+
+.section5 {
+  background-color: #5e4e34;
+  display: block;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+.section4 .perigordNoir {
+  background-color: #7d4242;
+  color: rgb(249, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+}
+
+div.perigordNoir {
+  position: relative;
+  right:0;
+}
+
+.section4 {
+  display: flex
+}
+
+.perigordNoir {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+.perigordNoir img {
+  -webkit-transition: all 1s ease;
+}
+
+.perigordNoir:hover img {
+  -webkit-transform: scale(1.25);
+}
+
+.perigordNoir figcaption{
+  color: black;
+  text-decoration: black underline;
+}
+
+.com {
+  color: rgb(249, 249, 249);
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+  position:relative; 
+  top:60px; 
+  left:0px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px; 
+  margin-right:10px;
+  height:100%;
+  border-radius: 5px;
+  width: 100px;
+  z-index: 1;
+    background: #7d4242;
+    background-color: #7d4242;
+  }
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 95%;
+  background-color: #333;
+  border-radius: 6px;
+  margin: 3px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  opacity: 1;
+  text-align: center;
+}
